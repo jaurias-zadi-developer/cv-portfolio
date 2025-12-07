@@ -22,8 +22,42 @@
             <h2> Video </h2>
         </section>
         <section>
-            <h2> Contact me</h2>
+            <h2 id="title"> Contact me</h2>
+                <p id="description"> Please fill out the form to help me provide you with the best service possible </p>
 
+                <form id="Contact me">
+                    <lable id="name-lable" for="name">Name</lable>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+
+                    <lable id="surname-lable" for="surname">Surname</lable>
+                    <input type="text" id="Surname" placeholder="Enter your surname" required>
+
+                    <lable id="mail-lable" for="mail">Mail</lable>
+                    <input type="text" id="mail" placeholder="Enter your mail" required>
+
+                      <label for="dropdown">For which event would you need the service?</label>
+                    <select id="dropdown" name="referral">
+                        <option value="">Select an option</option>
+                        <option value="friend">wedding</option>
+                        <option value="search">Graduation</option>
+                        <option value="social">Baptism</option>
+                        <option value="social">Social media</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                      <label for="dropdown">How did you hear about me</label>
+                    <select id="dropdown" name="referral">
+                        <option value="">Select an option</option>
+                        <option value="friend">Friend or family</option>
+                        <option value="search">Search engine</option>
+                        <option value="social">Social media</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="comments">Any extra question?</label>
+                     <textarea id="comments" name="comments" placeholder="Enter your comments here..." rows="4"></textarea>
+
+                </form>
 
             <button> submin</button>
         </section>
